@@ -1,8 +1,8 @@
-package com.khadri.spring.rest.initializer;
+package com.khadri.spring.mvc.rest.initializer;
 
 import org.springframework.web.servlet.support.AbstractAnnotationConfigDispatcherServletInitializer;
 
-import com.khadri.spring.rest.config.AppConfig;
+import com.khadri.spring.mvc.rest.config.AppConfig;
 
 public class WebAppInitializer extends AbstractAnnotationConfigDispatcherServletInitializer {
 
