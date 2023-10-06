@@ -1,0 +1,270 @@
+{
+	"info": {
+		"_postman_id": "3d4e0289-66a6-4bee-871f-7bd57e1ea4e1",
+		"name": "A2022_Spring_MVC_REST_LMS _Account",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "29896980"
+	},
+	"item": [
+		{
+			"name": "POST",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/A2022_Spring_MVC_REST_LMS_Account/form/add/register?fName=JAILER&lName=TEEHAR&Name=RAJINI&sAge=52&email=jailer@gmail.com&phone=998877&alterPhone=998855&type=SAVING&cAddress=KADIRI&pAddress=KADIRI&adhaar=223366&pan=R4477&nName=MUTTU&ano=667788&aco=456756&cibil=80",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"A2022_Spring_MVC_REST_LMS_Account",
+						"form",
+						"add",
+						"register"
+					],
+					"query": [
+						{
+							"key": "fName",
+							"value": "JAILER"
+						},
+						{
+							"key": "lName",
+							"value": "TEEHAR"
+						},
+						{
+							"key": "Name",
+							"value": "RAJINI"
+						},
+						{
+							"key": "sAge",
+							"value": "52"
+						},
+						{
+							"key": "email",
+							"value": "jailer@gmail.com"
+						},
+						{
+							"key": "phone",
+							"value": "998877"
+						},
+						{
+							"key": "alterPhone",
+							"value": "998855"
+						},
+						{
+							"key": "type",
+							"value": "SAVING"
+						},
+						{
+							"key": "cAddress",
+							"value": "KADIRI"
+						},
+						{
+							"key": "pAddress",
+							"value": "KADIRI"
+						},
+						{
+							"key": "adhaar",
+							"value": "223366"
+						},
+						{
+							"key": "pan",
+							"value": "R4477"
+						},
+						{
+							"key": "nName",
+							"value": "MUTTU"
+						},
+						{
+							"key": "ano",
+							"value": "667788"
+						},
+						{
+							"key": "aco",
+							"value": "456756"
+						},
+						{
+							"key": "cibil",
+							"value": "80"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "VIEW",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/A2022_Spring_MVC_REST_LMS_Account/form/view/register?pan=R4455",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"A2022_Spring_MVC_REST_LMS_Account",
+						"form",
+						"view",
+						"register"
+					],
+					"query": [
+						{
+							"key": "pan",
+							"value": "R4455"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "VIEW ALL",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/A2022_Spring_MVC_REST_LMS/form/view/register?pan=R4455",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"A2022_Spring_MVC_REST_LMS",
+						"form",
+						"view",
+						"register"
+					],
+					"query": [
+						{
+							"key": "pan",
+							"value": "R4455"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "DELETE",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/A2022_Spring_MVC_REST_LMS_Account/form/delete/register?pan=R4477",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"A2022_Spring_MVC_REST_LMS_Account",
+						"form",
+						"delete",
+						"register"
+					],
+					"query": [
+						{
+							"key": "pan",
+							"value": "R4477"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "MODIFY",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/A2022_Spring_MVC_REST_LMS_Account/form/modify/register?fName=JOHN K&lName=NN&Name=JOSEPH&sAge=25&email=jhonn@gmail.com&phone=776655&alterPhone=445566&type=SAVING&cAddress=KADIRI&pAddress=KADIRI&adhaar=223344&pan=R4455&nName=ALLEN&ano=667755&aco=45673&cibil=80",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"A2022_Spring_MVC_REST_LMS_Account",
+						"form",
+						"modify",
+						"register"
+					],
+					"query": [
+						{
+							"key": "fName",
+							"value": "JOHN K"
+						},
+						{
+							"key": "lName",
+							"value": "NN"
+						},
+						{
+							"key": "Name",
+							"value": "JOSEPH"
+						},
+						{
+							"key": "sAge",
+							"value": "25"
+						},
+						{
+							"key": "email",
+							"value": "jhonn@gmail.com"
+						},
+						{
+							"key": "phone",
+							"value": "776655"
+						},
+						{
+							"key": "alterPhone",
+							"value": "445566"
+						},
+						{
+							"key": "type",
+							"value": "SAVING"
+						},
+						{
+							"key": "cAddress",
+							"value": "KADIRI"
+						},
+						{
+							"key": "pAddress",
+							"value": "KADIRI"
+						},
+						{
+							"key": "adhaar",
+							"value": "223344"
+						},
+						{
+							"key": "pan",
+							"value": "R4455"
+						},
+						{
+							"key": "nName",
+							"value": "ALLEN"
+						},
+						{
+							"key": "ano",
+							"value": "667755"
+						},
+						{
+							"key": "aco",
+							"value": "45673"
+						},
+						{
+							"key": "cibil",
+							"value": "80"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
